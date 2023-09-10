@@ -40,7 +40,7 @@ export const features = [
     icon: shield,
     title: "Vision",
     content:
-      "Our vision as a travel and event agency is to become the go-to destination for those seeking unparalleled travel and event planning services. We envision a future where we are renowned for our creativity, innovation, and commitment to delivering memorable experiences that surpass our clients' expectations. ",
+      "Our vision as a travel and event agency is to become the go-to destination for those seeking unparalleled travel and event planning services. We envision a future where we are renowned for our creativity, innovation, and commitment to delivering memorable experiences that surpass our clients' expectations.",
   },
  
 ];

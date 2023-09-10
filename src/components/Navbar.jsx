@@ -26,16 +26,21 @@ const Navbar = () => {
         </div>
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-        {navLinks.map((nav, index) => (
-          <li
-            key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-dimWhite"
-              } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
-          >
-            <a href={`#${nav.id}`}>{nav.title}</a>
-          </li>
-        ))}
+        <li onClick={() => setActive('Home')} className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${active === 'Home' ? "text-white" : "text-dimWhite"
+          }`}>            <a href='#home'>{translate("Home")}</a>
+        </li>
+        <li onClick={() => setActive('About us')} className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${active === 'About us' ? "text-white" : "text-dimWhite"
+          }`}>            <a href='#history'>{translate("About us")} </a>
+        </li>
+        <li onClick={() => setActive('Events')} className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${active === 'Events' ? "text-white" : "text-dimWhite"
+          }`}>            <a href='#banner'>{translate("Events")} </a>
+        </li>
+        <li onClick={() => setActive('Travel')} className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${active === 'Travel' ? "text-white" : "text-dimWhite"
+          }`}>            <a href='#travel'> {translate("Travel")}</a>
+        </li>
+        <li onClick={() => setActive('Contact Us')} className={`font-poppins font-normal cursor-pointer text-[16px] mr-0 ${active === 'Contact Us' ? "text-white" : "text-dimWhite"
+          }`}>            <a href='#contact'>{translate("Contact Us")} </a>
+        </li>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
