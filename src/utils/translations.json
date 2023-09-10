@@ -1,0 +1,39 @@
+{
+  "en": {
+    "Home": "Home",
+    "Exciting Events Across All Tunisia With": "Exciting Events Across All Tunisia With",
+    "Welcome to Kepler, your gateway to unforgettable travel experiences and exciting events. Our travel agency is passionate about curating the perfect Event package tailored to your interests.": "Welcome to Kepler, your gateway to unforgettable travel experiences and exciting events. Our travel agency is passionate about curating the perfect Event package tailored to your interests.",
+    "Get Started":"Get Started",
+    "Our History":"",
+    "kepler travel services is a travel agency based in Mégrine, specialized in traveling, organizing , animating seminars, conferences, exhibitions, corporate evenings, product launches, and team building activities. We accompany you from the conception to the realization of your event project, in order to implement all the necessary means for logistical organization and smooth running of your event anywhere in Tunisia and abroad.":"",
+    "Mission And Vision": "Mission And Vision",
+    "features": {
+      "feature-1": {
+        "title": "Mission",
+        "content": "Our mission as a travel and event agency..."
+      },
+      "feature-2": {
+        "title": "Vision",
+        "content": "Our vision as a travel and event agency..."
+      }
+    }
+  },
+  "fr": {
+    "Home": "Accueil",
+    "Exciting Events Across All Tunisia With": "Événements passionnants dans toute la Tunisie avec",
+    "Welcome to Kepler, your gateway to unforgettable travel experiences and exciting events. Our travel agency is passionate about curating the perfect Event package tailored to your interests.": "Bienvenue chez Kepler, votre porte d'entrée vers des expériences de voyage inoubliables et des événements passionnants. Notre agence de voyage est passionnée par la création du package d'événements parfait adapté à vos intérêts.",
+    "Get Started":"Aller",
+    "Mission And Vision": "Mission Et Vision",
+    "features": {
+      "feature-1": {
+        "title": "Notre Mission",
+        "content": "Notre mission en tant qu'agence de voyage et d'événement..."
+      },
+      "feature-2": {
+        "title": "Notre Vision",
+        "content": "Notre vision en tant qu'agence de voyage et d'événement..."
+      }
+    }
+  
+  }
+}
