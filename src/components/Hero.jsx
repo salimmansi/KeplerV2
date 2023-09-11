@@ -6,7 +6,7 @@ import { Sponsers } from "./../components";
 import Button from "./Button";
 import '../assets/css/hero.css'
 import { useLanguage } from "../utils/LanguageContext"; // Import the language context hook
-import {heroBackground} from '../assets'
+import {heroBackground,herobg2,herobg3} from '../assets'
 import {
     
     USAIDLogo,
@@ -25,9 +25,9 @@ const CarouselData = [
     {
         image: heroBackground
     }, {
-        image: heroBackground
+        image: herobg2
     }, {
-        image: heroBackground
+        image: herobg3
     }
 ];
 class Hero extends Component {
