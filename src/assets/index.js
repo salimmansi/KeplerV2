@@ -25,6 +25,8 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import glassifiedRectangle from "./glassifiedRectangle.png";
 import heroBackground from "./heroBackground.png";
+import herobg2 from "./herobg2.png";
+import herobg3 from "./herobg3.png";
 import USAIDLogo from "./USAIDLogo.png";
 import UTICALogo from "./UTICALogo.png";
 import ma3anLogo from "./ma3anLogo.png";
@@ -93,6 +95,8 @@ export {
     phonecontact,
     mapmarker,
     wwbg,
+    herobg2,
+    herobg3,
     mapss,
     TT1,
     TT2,
