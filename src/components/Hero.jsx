@@ -22,11 +22,11 @@ import {
 import GetStarted from "./GetStarted";
 const CarouselData = [
     {
-        image: "./src/assets/heroBackground.png"
+        image: "../assets/heroBackground.png"
     }, {
-        image: "./src/assets/herobg2.png"
+        image: "../assets/herobg2.png"
     }, {
-        image: "./src/assets/herobg3.png"
+        image: "../assets/herobg3.png"
     }
 ];
 class Hero extends Component {
