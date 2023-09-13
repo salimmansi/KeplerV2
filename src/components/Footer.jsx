@@ -10,11 +10,11 @@ const Footer = () => {
     <footer className="footer">
 
       <div className="footer-content">
-        <div className="footer-content-column">
-          <div className="footer-logo">
+        <div className="footer-content-column col-style">
+          <div className="footer-logo helper-pd">
             <img src={wwbg} alt="wbg" />
           </div>
-          <div className="footer-menu">
+          <div className="footer-menu helper-mg">
             <h2 className="footer-menu-name"> {translate("Follow Us")} </h2>
             <ul id="menu-get-started" className="footer-menu-list">
               <li className="menu-item menu-item-type-post_type menu-item-object-product">

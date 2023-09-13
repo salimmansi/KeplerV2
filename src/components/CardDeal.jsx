@@ -1,11 +1,11 @@
 import { aboutus } from "../assets";
 import styles, { layout } from "../style";
 import { useLanguage } from "../utils/LanguageContext";
-
+import {abtbg2} from "../assets"
 const CardDeal = () => {
   const { translate } = useLanguage();
 
-  return (<section className={layout.section} id="history" data-aos="fade-up">
+  return (<section className={layout.section} id="history" data-aos="fade-up" style={{ backgroundImage: `url(${abtbg2})` }}>
     <div className={layout.sectionInfoBilling}>
       <h2 className={styles.heading2}>
         {translate("Our History")}

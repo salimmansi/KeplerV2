@@ -33,3 +33,6 @@ h2{position:relative;color:#252525;font-size:36px;font-weight:700;line-height:1.
         flex-direction: column !important;
     }
   }
+  .immage{
+    height: 24rem;
+  }

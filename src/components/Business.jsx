@@ -2,7 +2,7 @@ import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 import { useLanguage } from "../utils/LanguageContext";
-
+import '../assets/css/scroll.scss'
 const FeatureCard = ({ icon, title, content, index }) => {
   const { translate } = useLanguage()
   return (<div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -32,7 +32,7 @@ const Business = () => {
 
     </div>
 
-    <div className={``}>
+    <div className={`helper-mg`}>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} data-aos="fade-up" data-aos-delay="300" />
       ))}

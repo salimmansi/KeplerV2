@@ -87,11 +87,13 @@ import facebookcont from "./facebookcont.png"
 import instagramcont from "./Instagramcont.png"
 import emailcont from "./emailcont.png"
 import mapss from "./mapss.png"
+import abtbg2 from "./abtbg2.png"
 import wwbg from "./wwbg.png"
 export {
     emailcont,
     instagramcont,
     facebookcont,
+    abtbg2,
     phonecontact,
     mapmarker,
     wwbg,

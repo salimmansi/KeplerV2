@@ -13,7 +13,6 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar nav-bar" >
       <img src={logo} alt="hoobank" className="w-[63px] h-[40px]" />
-      <p>{translate("Home")}</p>
       <div class="toggle-margin">
         <div class="">
           <div class="button b2" id="button-10">

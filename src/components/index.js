@@ -16,11 +16,13 @@ import Banner2 from "./Banner2";
 import Services from "./Services";
 import Contact from "./Contact";
 import Travel from "./Travel";
+import RandomScrollComponent from './RandomScrollComponent'
 export {
   Navbar,
   Billing,
   Destination,
   Contact,
+  RandomScrollComponent,
   Services,
   Banner2,
   Travel,

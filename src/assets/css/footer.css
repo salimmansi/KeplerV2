@@ -320,4 +320,13 @@ a {
         width: 49.99%;
     } */
   }
-  
+  .col-style{
+    display: flex;
+    flex-direction: row;
+  }
+  .helper-mg{
+    margin-top: 2.33rem;
+  }
+  .helper-pd{
+    padding-top: 1rem ;
+  }
