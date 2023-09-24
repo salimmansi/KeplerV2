@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Services, Testimonials, Hero, Sponsers, Contact, Banner, VidCollage, Banner2, Destination, Travel } from "./components";
+import { Billing, Business, CardDeal, Clients, Slider, CTA, Footer, Navbar, Stats, Services, Testimonials, Hero, Sponsers, Contact, Banner, VidCollage, Banner2, Destination, Travel } from "./components";
 import './assets/css/navBar.css';
 import { useLanguage } from "./utils/LanguageContext"; // Import the language context hook
 
@@ -22,6 +22,7 @@ const App = () => {
           <Hero translatedText={translatedText} />
         </div>
       </div>
+
       <Sponsers />
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter} section-bg`}>
         <div className={`${styles.boxWidth}`}>
@@ -36,6 +37,7 @@ const App = () => {
           <Banner2 />
           <Destination />
           <Sponsers />
+          <Slider />
           <Travel />
           <Services />
           <Sponsers />

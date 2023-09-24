@@ -17,6 +17,7 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Travel from "./Travel";
 import RandomScrollComponent from './RandomScrollComponent'
+import Slider from './Slider'
 export {
   Navbar,
   Billing,
@@ -26,6 +27,7 @@ export {
   Services,
   Banner2,
   Travel,
+  Slider,
   CardDeal,
   Banner,
   Business,
