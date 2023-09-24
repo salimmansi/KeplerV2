@@ -187,7 +187,7 @@ const Slider = () => {
             <section class="container double">
                 <div class="inner-container">
                     <div class="container-text">
-                        <h1 className="slider_text" >Planning your next Adventure & unforgettable Trip with Kepler !</h1>
+                        <h1 className="slider_text" >Planning your next Adventure & unforgettable Trip with <span className="text-gradient bg-red-800">Kepler!</span></h1>
                     </div>
                     <div class="row--top">
                         <section class="panel behind width--thin height--short direction--right">

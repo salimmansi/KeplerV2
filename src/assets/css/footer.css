@@ -323,6 +323,8 @@ a {
   .col-style{
     display: flex;
     flex-direction: row;
+    padding-left: 0px;
+    gap: 25px;
   }
   .helper-mg{
     margin-top: 2.33rem;
