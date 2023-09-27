@@ -1,5 +1,6 @@
 import React from 'react'
-import { mapss } from '../assets'
+import { mips } from '../assets'
+import '../assets/css/Contact.css'
 import { useLanguage } from '../utils/LanguageContext'
 function Contact() {
   const { translate } = useLanguage()
@@ -7,14 +8,13 @@ function Contact() {
 
 
 
+    <section className="text-gray-600 body-font relative" data-aos="fade-up" data-aos-duration="1000">
+      <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative ">
+          <img src={mips} alt="contact" />
 
-
-    <section className="text-gray-100 body-font" id='contact' data-aos="fade-up" data-aos-duration="1000">
-      <div className="container px-5 py-12 mx-auto flex flex-nowrap flexlayout ">
-        <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-          <img alt="feature" className="object-cover object-center h-full w-full immage" src={mapss} />
         </div>
-        <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-2 lg:text-left text-center bg-red-800 p-3 rounded-lg">
+        <div className="lg:w-1/3 md:w-1/2 bg-red-800 flex flex-col md:ml-auto w-full md:py-8 md:px-3 mt-8 md:mt-0 rounded-lg " >
           <h2 className="text-gray-900 text-3xl mb-1 font-medium title-font text-gray-100">Get <span className='text-gray-100'>inTouch!</span></h2>
           <p className="leading-relaxed mb-5 text-gray-100">{translate("Please feel free to get in touch with me if you have any further questions or concerns.")}</p>
           <div className="relative mb-4">

@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .parallax-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .parallax-item h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .section-content{
+    width: 70%;
+  }
+  .parallax-item:nth-child(2) {
+    background: url("../TRAVELBAG.png");
+    background-size: cover;
+    width: 30%;
+  }
+  .section-fix{
+    display: flex;
+  }

@@ -1,4 +1,19 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, UTICALogo,
+import { people01, a11,
+  a12,
+  a13,
+  a14,
+  a15,
+  a16,
+  a17,
+  a18,
+  a19,
+  a20,
+  a21,
+  a22,
+  a23,
+  a24,
+  a25,
+  a26, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, UTICALogo,
   ma3anLogo,
   FRIEDRICHLogo,
   fhiLogo,
@@ -182,24 +197,54 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: UTICALogo,
+    logo: a11,
   },
   {
     id: "client-2",
-    logo: ma3anLogo,
+    logo: a12,
   },
   {
     id: "client-3",
-    logo: FRIEDRICHLogo,
+    logo: a13,
   },
   {
     id: "client-4",
-    logo: fhiLogo,
+    logo: a14,
   },  {
     id: "client-5",
-    logo: FAOLogo,
+    logo: a15,
   },  {
     id: "client-6",
-    logo: CFADLogo,
-  },
+    logo: a16,
+  },{
+    id: "client-7",
+    logo: a17,
+  },{
+    id: "client-6",
+    logo: a18,
+  },{
+    id: "client-6",
+    logo: a19,
+  },{
+    id: "client-6",
+    logo: a20,
+  },{
+    id: "client-6",
+    logo: a21,
+  },{
+    id: "client-6",
+    logo: a22,
+  },{
+    id: "client-6",
+    logo: a23,
+  },{
+    id: "client-6",
+    logo: a24,
+  },{
+    id: "client-6",
+    logo: a25,
+  },{
+    id: "client-6",
+    logo: a26,
+  }
 ]; 

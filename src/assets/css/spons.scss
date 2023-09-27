@@ -1,6 +1,6 @@
 .slider {
-    --slider-inner-width: 2500px;
-    --slider-speed: 6s;
+    --slider-inner-width: 1000px;
+    --slider-speed: 15s;
   }
   
   @keyframes scroll {
@@ -11,10 +11,8 @@
     -webkit-transform: translate3d(0, 0, 0);
     animation: scroll linear infinite var(--slider-speed);
     width: calc(2 * var(--slider-inner-width));
-    transition: animation-play-state ease 0.3s;
-    &:hover {
-      animation-play-state: paused;
-    }
+    transition: animation-play-state ease 1s;
+ 
   }
   
   
@@ -35,7 +33,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem 4rem;
-    background: #00000029;
+    background: #0000004d;
   }
   
   .slider-container {

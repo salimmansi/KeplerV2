@@ -43,6 +43,7 @@ import I2 from "./I2.jpeg";
 import I3 from "./I3.jpg";
 import I4 from "./I4.webp";
 import I5 from "./I5.png";
+import mips from "./mips.png";
 import vid1 from "./vid-1.mp4";
 import vid2 from "./vid-2.mp4";
 import vid3 from "./vid-3.mp4";
@@ -88,18 +89,59 @@ import instagramcont from "./Instagramcont.png"
 import emailcont from "./emailcont.png"
 import mapss from "./mapss.png"
 import abtbg2 from "./abtbg2.png"
+import a11 from "./a11.png"
+import a12 from "./a12.png"
+import a13 from "./a13.png"
+import a14 from "./a14.png"
+import a15 from "./a15.png"
+import a16 from "./a16.png"
+import a17 from "./a17.png"
+import a18 from "./a18.png"
+import a20 from "./a20.png"
+import a21 from "./a21.png"
+import a23 from "./a23.png"
+import a24 from "./a24.png"
+import a25 from "./a25.png"
+import a26 from "./a26.png"
+import a19 from "./a19.png"
+import at3 from "./at3.jpg"
+import at1 from "./at1.jpg"
+import at2 from "./at2.jpg"
+import a22 from "./a22.png"
+
+
 import wwbg from "./wwbg.png"
 export {
     emailcont,
     instagramcont,
     facebookcont,
+    mips,
     abtbg2,
     phonecontact,
+    at1,
+    at2,
+    at3,
     mapmarker,
     wwbg,
     herobg2,
     herobg3,
     mapss,
+    a11,
+    a12,
+    a13,
+    a14,
+    a15,
+    a16,
+    a17,
+    a18,
+    a19,
+    a20,
+    a21,
+    a22,
+    a23,
+    a24,
+    a25,
+    a26,
     TT1,
     TT2,
     TT3,

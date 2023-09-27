@@ -75,9 +75,9 @@ class Hero extends Component {
         return (
             <div>
                 <div class="sticky-icon">
-                    <a href="hhttps://www.instagram.com/keplertravel/" class="Instagram"><FaInstagramSquare /> Instagram </a>
-                    <a href="hhttps://www.facebook.com/profile.php?id=100075745255608" class="Facebook"><FaFacebookSquare />Facebook </a>
-                    <a href="https://www.linkedin.com/company/kepler-travel-services" class="Google"><FaLinkedin />LinkedIn </a>
+                    <a href="hhttps://www.instagram.com/keplertravel/" class="Instagram"><FaInstagramSquare className="icon-sppace" size={22} /> Instagram </a>
+                    <a href="hhttps://www.facebook.com/profile.php?id=100075745255608" class="Facebook"><FaFacebookSquare className="icon-sppace" size={22} />Facebook </a>
+                    <a href="https://www.linkedin.com/company/kepler-travel-services" class="Google"><FaLinkedin className="icon-sppace" size={22} />LinkedIn </a>
 
                 </div>
                 <div

@@ -85,10 +85,16 @@ li.slide.previous{
   text-decoration: none;
   text-transform: uppercase;
   padding: 10px;
-  font-size: 22px;
+  font-size: 12px;
   font-family: 'Oswald', sans-serif;
   transition: all 0.8s;
-  align-items: center;}
+  align-items: center;
+
+
+}
+.icon-sppace{
+  margin-right: 0.5rem !important;
+}
 .sticky-icon a:hover  {
 	color:#FFF;
 	transform:translate(0px,0px);}	
@@ -97,8 +103,10 @@ li.slide.previous{
 /*.search_icon a:hover i  {
 	transform:rotate(360deg);}*/
 .Facebook  {
-	background-color:#2C80D3;
-	color:#FFF;}
+	background-color:#AAA39D;
+	color:#FFF;
+font-family: Arial, Helvetica, sans-serif   ; 
+font-size: 1rem;   }
 	
 .Youtube  {
 	background-color:#fa0910;
@@ -109,11 +117,11 @@ li.slide.previous{
 	color:#FFF;}
 	
 .Instagram  {
-	background-color:#FD1D1D;
+	background-color:#8F857D;
 	color:#FFF;}
 	
 .Google  {
-	background-color:#d34836;
+	background-color:#BDB7B3;
 	color:#FFF;}						
 .sticky-icon a i {
 	background-color:#FFF;
