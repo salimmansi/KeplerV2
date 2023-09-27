@@ -37,24 +37,25 @@ function Services() {
               <p className="leading-relaxed text-gray-100"> {translate("Paintball / Olympiads Bumper ball tournaments Skyrunner initiation Gladiator tournaments Treasure hunt / Sniper hunt Babouche race")}</p>
             </div>
           </div>
-          <div className="flex flex-col mb-10 lg:items-start items-center card-services-gray">
 
-            <div className="flex-grow">
-              <h1 className="text-gray-100  text-lg title-font font-medium mb-3"> {translate("Meetings & Incentives")}</h1>
-              <ul>
-                <li className='text-gray-100 '>{translate("Hotel and accommodation selection")}</li>
-                <li className='text-gray-100 '>{translate("Catering and catering services")}
-                </li>
-                <li className='text-gray-100 '>{translate("atering and catering services")}C
-                </li>
-                <li className='text-gray-100 '>{translate("Themed evenings, Cocktail Dinatoire, Gala dinners")}
-                </li>
-                <li className='text-gray-100 '>{translate("Audiovisual equipment")}
-                </li>
-                <li className='text-gray-100 '>{translate("TContinuous assistance")}
-                </li>
-              </ul>
-            </div>
+        </div>
+        <div className="flex flex-row mb-10 lg:items-start items-center card-services-gray">
+
+          <div className="flex-grow">
+            <h1 className="text-gray-100  text-lg title-font font-medium mb-3"> {translate("Meetings & Incentives")}</h1>
+            <ul>
+              <li className='text-gray-100 '>{translate("Hotel and accommodation selection")}</li>
+              <li className='text-gray-100 '>{translate("Catering and catering services")}
+              </li>
+              <li className='text-gray-100 '>{translate("atering and catering services")}C
+              </li>
+              <li className='text-gray-100 '>{translate("Themed evenings, Cocktail Dinatoire, Gala dinners")}
+              </li>
+              <li className='text-gray-100 '>{translate("Audiovisual equipment")}
+              </li>
+              <li className='text-gray-100 '>{translate("TContinuous assistance")}
+              </li>
+            </ul>
           </div>
         </div>
       </div>
